@@ -1,3 +1,31 @@
 body {
     font-family: sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.recipe-container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+div.recipe-container a {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;   
+}
+
+div.recipe-container a:hover {
+    font-size: 18px;
 }
